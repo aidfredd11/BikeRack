@@ -11,6 +11,8 @@
 		DD2614C82C88B2BA0053632E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2614C72C88B2BA0053632E /* ContentView.swift */; };
 		DD2614CD2C88B2BB0053632E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2614CC2C88B2BB0053632E /* Preview Assets.xcassets */; };
 		DD2614D42C88B3F50053632E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2614D32C88B3F50053632E /* Assets.xcassets */; };
+		DD2614D92C88B6420053632E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2614D82C88B6420053632E /* Location.swift */; };
+		DD2614DC2C88B7620053632E /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2614DB2C88B7620053632E /* LocationsDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DD2614C72C88B2BA0053632E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD2614CC2C88B2BB0053632E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD2614D32C88B3F50053632E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD2614D82C88B6420053632E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		DD2614DB2C88B7620053632E /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,11 @@
 				DD2614C52C88B2BA0053632E /* BikeRackAppApp.swift */,
 				DD2614C72C88B2BA0053632E /* ContentView.swift */,
 				DD2614D32C88B3F50053632E /* Assets.xcassets */,
+				DD2614DA2C88B7470053632E /* DataServices */,
+				DD2614D52C88B60E0053632E /* Models */,
 				DD2614CB2C88B2BB0053632E /* Preview Content */,
+				DD2614D72C88B6180053632E /* ViewModels */,
+				DD2614D62C88B6120053632E /* Views */,
 			);
 			path = BikeRackApp;
 			sourceTree = "<group>";
@@ -65,6 +73,36 @@
 				DD2614CC2C88B2BB0053632E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD2614D52C88B60E0053632E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD2614D82C88B6420053632E /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD2614D62C88B6120053632E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD2614D72C88B6180053632E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DD2614DA2C88B7470053632E /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				DD2614DB2C88B7620053632E /* LocationsDataService.swift */,
+			);
+			path = DataServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +175,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2614DC2C88B7620053632E /* LocationsDataService.swift in Sources */,
 				DD2614C82C88B2BA0053632E /* ContentView.swift in Sources */,
+				DD2614D92C88B6420053632E /* Location.swift in Sources */,
 				DD2614C62C88B2BA0053632E /* BikeRackAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
