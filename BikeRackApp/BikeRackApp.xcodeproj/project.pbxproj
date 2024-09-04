@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		DD2614C62C88B2BA0053632E /* BikeRackAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2614C52C88B2BA0053632E /* BikeRackAppApp.swift */; };
 		DD2614C82C88B2BA0053632E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2614C72C88B2BA0053632E /* ContentView.swift */; };
-		DD2614CA2C88B2BB0053632E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2614C92C88B2BB0053632E /* Assets.xcassets */; };
 		DD2614CD2C88B2BB0053632E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2614CC2C88B2BB0053632E /* Preview Assets.xcassets */; };
+		DD2614D42C88B3F50053632E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2614D32C88B3F50053632E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD2614C22C88B2BA0053632E /* BikeRackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeRackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2614C52C88B2BA0053632E /* BikeRackAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeRackAppApp.swift; sourceTree = "<group>"; };
 		DD2614C72C88B2BA0053632E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DD2614C92C88B2BB0053632E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD2614CC2C88B2BB0053632E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD2614D32C88B3F50053632E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			children = (
 				DD2614C52C88B2BA0053632E /* BikeRackAppApp.swift */,
 				DD2614C72C88B2BA0053632E /* ContentView.swift */,
-				DD2614C92C88B2BB0053632E /* Assets.xcassets */,
+				DD2614D32C88B3F50053632E /* Assets.xcassets */,
 				DD2614CB2C88B2BB0053632E /* Preview Content */,
 			);
 			path = BikeRackApp;
@@ -125,8 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2614D42C88B3F50053632E /* Assets.xcassets in Resources */,
 				DD2614CD2C88B2BB0053632E /* Preview Assets.xcassets in Resources */,
-				DD2614CA2C88B2BB0053632E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
