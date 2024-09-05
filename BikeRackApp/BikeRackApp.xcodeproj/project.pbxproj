@@ -18,6 +18,7 @@
 		DD2614E22C88D3990053632E /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2614E12C88D3990053632E /* LocationsListView.swift */; };
 		DD2614E42C88DCE60053632E /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2614E32C88DCE60053632E /* LocationPreviewView.swift */; };
 		DDDB7DA42C8A0D1C005257C8 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB7DA32C8A0D1C005257C8 /* LocationMapAnnotationView.swift */; };
+		DDDB7DA62C8A184D005257C8 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB7DA52C8A184D005257C8 /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		DD2614E12C88D3990053632E /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		DD2614E32C88DCE60053632E /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		DDDB7DA32C8A0D1C005257C8 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		DDDB7DA52C8A184D005257C8 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				DD2614E12C88D3990053632E /* LocationsListView.swift */,
 				DD2614E32C88DCE60053632E /* LocationPreviewView.swift */,
 				DDDB7DA32C8A0D1C005257C8 /* LocationMapAnnotationView.swift */,
+				DDDB7DA52C8A184D005257C8 /* LocationDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				DD2614C82C88B2BA0053632E /* ContentView.swift in Sources */,
 				DD2614DE2C88B9940053632E /* LocationsView.swift in Sources */,
 				DD2614D92C88B6420053632E /* Location.swift in Sources */,
+				DDDB7DA62C8A184D005257C8 /* LocationDetailView.swift in Sources */,
 				DD2614C62C88B2BA0053632E /* BikeRackAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
