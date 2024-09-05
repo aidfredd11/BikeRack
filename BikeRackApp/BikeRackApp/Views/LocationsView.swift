@@ -61,7 +61,7 @@ extension LocationsView {
         .cornerRadius(10)
         .shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/.opacity(0.3), radius: 20, x: 0, y: 15)
     }
-    
+    /*
     private var mapLayer: some View {
         Map(coordinateRegion: $vm.mapRegion,
             annotationItems: vm.locations,
@@ -74,8 +74,21 @@ extension LocationsView {
                     }
             }
         })
+    } */
+    private var mapLayer: some View {
+        Map(position: $vm.cameraPosition) {
+            ForEach(vm.locations) { location in
+                Annotation("", coordinate: location.coordinates) {
+                    LocationMapAnnotationView()
+                        .scaleEffect(vm.mapLocation == location ? 1 : 0.7)
+                        .onTapGesture {
+                            vm.showNextLocation(location: location)
+                        }
+                }
+            }
+        }
     }
-    
+        
     private var locationsPreviewStack: some View {
         ZStack {
             ForEach(vm.locations) { location in

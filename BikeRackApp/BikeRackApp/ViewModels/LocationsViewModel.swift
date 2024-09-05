@@ -22,7 +22,9 @@ class LocationsViewModel: ObservableObject {
     }
     
     // Current region on map
-    @Published var mapRegion: MKCoordinateRegion = MKCoordinateRegion()
+    //@Published var mapRegion: MKCoordinateRegion = MKCoordinateRegion()
+    @Published var cameraPosition: MapCameraPosition = .automatic
+    
     let mapSpan = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
     
     // Show list of locations
@@ -37,13 +39,22 @@ class LocationsViewModel: ObservableObject {
         self.mapLocation = locations.first!
         self.updateMapRegion(location: locations.first!)
     }
-    
+    /*
     private func updateMapRegion(location: Location) {
         withAnimation(.easeInOut) {
             mapRegion = MKCoordinateRegion(
                 center: location.coordinates,
                 span: mapSpan
             )
+        }
+    }
+    */
+    private func updateMapRegion(location: Location){
+        withAnimation(.easeInOut) {
+            cameraPosition = MapCameraPosition.region(MKCoordinateRegion(
+                center: location.coordinates,
+                span: mapSpan
+            ))
         }
     }
     
