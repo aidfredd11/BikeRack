@@ -31,7 +31,7 @@ struct LocationPreviewView: View {
                 .fill(.ultraThinMaterial)
                 .offset(y: 65)
         )
-        .cornerRadius(10)
+        //.cornerRadius(10)
     }
 }
 
